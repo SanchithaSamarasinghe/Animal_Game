@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
-import {animals} from '../assets/data/AnimalsDb';
-import '../assets/css'
+import {animals} from '../assets/data/AnimalDB'
+import '../assets/css/component.css'
 
 
-function table(props) {
+function AnimalTable(props) {
 
     const [randomAnimal,setRandomAnimal]= useState(null);
     const [result,setResult]= useState('');
@@ -76,4 +76,4 @@ function table(props) {
 )
 }
 
-export default table
+export default AnimalTable
